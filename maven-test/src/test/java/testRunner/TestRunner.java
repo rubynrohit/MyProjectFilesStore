@@ -7,9 +7,9 @@ import cucumber.api.junit.Cucumber;
 
 
 @RunWith (Cucumber.class)
-@CucumberOptions(features="Features" ,glue={"testStepCode"})
+@CucumberOptions(features="Features" ,glue={"testStepCode"},	plugin = { "pretty", "target/cucumber-reports" })
 public class TestRunner {
 	
-	//Hi Rohit
+
 
 }
