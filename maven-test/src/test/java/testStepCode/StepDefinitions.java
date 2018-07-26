@@ -21,7 +21,7 @@ public class StepDefinitions {
 	  driver.get("https://www.olx.in");
 	  
 	}
-	
+	//hi
 	@When("^I enter the given credntials \"([^\"]*)\" and \"([^\"]*)\"$")
 	public void I_enter_the_given_credntials_and(String uname, String pass) throws Throwable {
 		System.out.println("Hi, I am in");
