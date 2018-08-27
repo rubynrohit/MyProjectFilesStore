@@ -18,11 +18,11 @@
 #Sample Feature Definition Template
 Feature: Google Dot Com
   I want to use this template for my feature file
-
+//COMMITING
   Scenario Outline: Test Google Homepage
     Given URL and Valid Credentials
     When I enter the given credntials "<username>" and "<password>"
-    And Click on login button
+    When Click on login button
     Then I should be navigated to homepage
 
     Examples: 
