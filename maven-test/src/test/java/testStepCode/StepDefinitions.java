@@ -33,7 +33,7 @@ public class StepDefinitions {
 		driver.findElement(By.xpath("//*[@id='userPass']")).sendKeys(pass);
 		
 	}
-
+//a
 	@When("^Click on login button$")
 	public void Click_on_login_button() throws Throwable {
 		driver.findElement(By.xpath("//*[@id='se_userLogin']")).click();
